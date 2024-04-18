@@ -17,6 +17,7 @@ Fig2. Comparison of Depth Map based on original data and model pre-diction resul
 (Top) LiDAR data; (Middle) GC-Net with disparity data; (Bottom) GC-Net with normalized Z-distance data.
 
 
+
 The results of learning GC-Net using disparity and normalized z-distance are shown in the table below.
 
 Table. Comparison of predicted values using Z-distance data and Disparity data
