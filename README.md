@@ -8,12 +8,14 @@ Users can download the test data, modify the code according to the saved path, a
 Fig1. Comparison of Disparity Map based on original data and model pre-diction results used for training and evaluation:
 
 (Top) LiDAR data; (Middle) GC-Net with disparity data; (Bottom) GC-Net with normalized Z-distance data.
+
  
 ![image](https://github.com/flymeover/ReduceQuantizedErrorOfDisparity/assets/167387983/5b992b18-19de-4ddc-a8de-ea9e06a96d90)
 
 Fig2. Comparison of Depth Map based on original data and model pre-diction results used for training and evaluation:
 
 (Top) LiDAR data; (Middle) GC-Net with disparity data; (Bottom) GC-Net with normalized Z-distance data.
+
 
 Table. Comparison of predicted values using Z-distance data and Disparity data
 
