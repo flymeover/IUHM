@@ -8,6 +8,9 @@ To verify that the distance prediction performance of the stereo matching algori
 
 The codes were written based on Python3 and TensorFlow2 in a Jupyter Notebook environment.
 Users can download the test data, modify the code according to the saved path, and run it.
+
+The test data set is stored in the tst directory. In that path, normalized z-distance data is stored in the depth folder, disparity data is stored in the disparity folder, and stereo image pairs are stored in the Up and Down folders.
+
 The results of learning GC-Net using disparity and normalized z-distance are shown in the following figures and table.
 It can be seen that the disparity or distance error (Mean Absolute Error) is reduced in the model learned using real normalized z-distance.
 
