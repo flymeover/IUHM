@@ -1,8 +1,11 @@
 Code and data used in Sensors "Research on learning data and data format for reducing quan-tization error in stereo vision system":
 
 Using the code at https://github.com/ardiya/gc_net, we created codes for learning and evaluation using Disparity data and Normalized z-distance data as output values.
+
 The dataset used in existing stereo matching research consists of stereo image pairs and disparity data, where the disparity data is expressed as an integer with a limited number of digits. The distance must be a continuous value, but if the stereo matching algorithm is learned and calculated using the disparity value expressed as a quantized value, quantization error will inevitably occur.
+
 To verify that the distance prediction performance of the stereo matching algorithm is improved by collecting and learning real-type distance data rather than disparity values expressed as quantized values, the test data set used in the study, model data that has already completed learning, and The performance of the model can be evaluated using the evaluation code.
+
 The codes were written based on Python3 and TensorFlow2 in a Jupyter Notebook environment.
 Users can download the test data, modify the code according to the saved path, and run it.
 The results of learning GC-Net using disparity and normalized z-distance are shown in the following figures and table.
