@@ -45,4 +45,5 @@ Figure. Prediction results of models by retraining iterations with tomato datase
 
 
 Table. Calculation resource usage by models predicted with tomato dataset (image size: 960 × 544).
-![image](https://github.com/user-attachments/assets/109c25c5-fa5b-42dd-af1c-e91d11a4e224)
+![image](https://github.com/user-attachments/assets/e990a3ea-594a-4a8b-b8f9-07be78c07c07)
+
