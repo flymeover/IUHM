@@ -29,9 +29,9 @@ The proposed model, IUHM surpasses existing models such as geometry and context 
 
 ![image](https://github.com/user-attachments/assets/42829cbc-ad43-45d8-81a6-cf1901588931)
 
-   Figure Prediction results of models by retraining iterations with tomato dataset.
+Figure. Prediction results of models by retraining iterations with tomato dataset.
 
 
 
-Table Calculation resource usage by models predicted with tomato dataset (image size: 960 × 544).
+Table. Calculation resource usage by models predicted with tomato dataset (image size: 960 × 544).
 ![image](https://github.com/user-attachments/assets/109c25c5-fa5b-42dd-af1c-e91d11a4e224)
