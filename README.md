@@ -1,12 +1,12 @@
-[Title] Resource-Constrained Stereo Matching for Agricultural Applications: An Efficient and Accurate Approach with Optimized Memory Usage in Field and Greenhouse Environments
+"Resource-Constrained Stereo Matching for Agricultural Applications: An Efficient and Accurate Approach with Optimized Memory Usage in Field and Greenhouse Environments"
 
-[Integrated U-Net model with histogram-equalized mono channel stereo data (IUHM)]
+[Proposed Model]
+Integrated U-Net model with histogram-equalized mono channel stereo data (IUHM)
 
 ![image](https://github.com/user-attachments/assets/48e6205c-30a3-4157-810f-1fdb47aec45d)
 
 
 [Stereo Matching Algorithm Code]
-
 The codes were written based on Python3 and TensorFlow2 in a Jupyter Notebook environment.
 
 [Scene Flow Data]
