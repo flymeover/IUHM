@@ -26,9 +26,11 @@ https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sha
 
 The proposed model, IUHM surpasses existing models such as geometry and context network (GC-Net) and pyramid stereo matching network (PSMNet) in terms of disparity prediction accuracy and computational speed, consuming less than one-third of the memory.
 
+
 ![image](https://github.com/user-attachments/assets/42829cbc-ad43-45d8-81a6-cf1901588931)
 
-Figure Prediction results of models by retraining iterations with tomato dataset.
+   Figure Prediction results of models by retraining iterations with tomato dataset.
+
 
 
 Table Calculation resource usage by models predicted with tomato dataset (image size: 960 × 544).
