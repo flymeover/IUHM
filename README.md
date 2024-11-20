@@ -1,6 +1,4 @@
-[Title]
-
-Code and data of "Resource-Constrained Stereo Matching for Agricultural Applications: An Efficient and Accurate Approach with Optimized Memory Usage in Field and Greenhouse Environments"
+[Title] Resource-Constrained Stereo Matching for Agricultural Applications: An Efficient and Accurate Approach with Optimized Memory Usage in Field and Greenhouse Environments
 
 [Integrated U-Net model with histogram-equalized mono channel stereo data (IUHM)]
 
