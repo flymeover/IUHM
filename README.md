@@ -6,8 +6,12 @@ Integrated U-Net model with histogram-equalized mono channel stereo data (IUHM)
 
 ![image](https://github.com/user-attachments/assets/48e6205c-30a3-4157-810f-1fdb47aec45d)
 
+![image](https://github.com/user-attachments/assets/04ba8194-92a8-40b3-923f-f2d928e0c160)
+
 
 [Stereo Matching Algorithm Code]
+
+![image](https://github.com/user-attachments/assets/2add8710-5c49-431f-b1f8-5fd96270e973)
 
 The codes were written based on Python3 and TensorFlow2 in a Jupyter Notebook environment.
 (Updating...)
