@@ -1,46 +1,31 @@
 [Title]
 
-Code and data used in Sensors "Research on learning data and data format for reducing quan-tization error in stereo vision system"
+Code and data of "Resource-Constrained Stereo Matching for Agricultural Applications: An Efficient and Accurate Approach with Optimized Memory Usage in Field and Greenhouse Environments"
 
+[Integrated U-Net model with histogram-equalized mono channel stereo data (IUHM)]
 
-[Purpose]
-
-The dataset used in existing stereo matching research consists of stereo image pairs and disparity data, where the disparity data is expressed as an integer with a limited number of digits. The distance must be a continuous value, but if the stereo matching algorithm is learned and calculated using the disparity value expressed as a quantized value, quantization error will inevitably occur.
-
-To verify that the distance prediction performance of the stereo matching algorithm is improved by collecting and learning real-type distance data rather than disparity values expressed as quantized values, the test data set used in the study, model data that has already completed learning, and The performance of the model can be evaluated using the evaluation code.
+![image](https://github.com/user-attachments/assets/48e6205c-30a3-4157-810f-1fdb47aec45d)
 
 
 [Stereo Matching Algorithm Code]
 
-Using GC-Net code at https://github.com/ardiya/gc_net, we modified and added codes for learning and evaluation using Disparity data and Normalized z-distance data as output values.
-("End-to-End Learning of Geometry and Context for Deep Stereo Regression", https://arxiv.org/abs/1703.04309)
-
 The codes were written based on Python3 and TensorFlow2 in a Jupyter Notebook environment.
-Users can download the test data, modify the code according to the saved path, and run it.
+
+[Scene Flow Data]
+Users can download data, modify the test code according to the saved path, and run it.
+https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html
 
 
-[Test Data]
-
-The test data set is stored in the tst directory. In that path, normalized z-distance data is stored in the depth folder, disparity data is stored in the disparity folder, and stereo image pairs are stored in the Up and Down folders.
-
+[Tomato Greenhouse Data]
+Users can download it from the following path:
+https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sharing
 
 [Result]
+The proposed model, IUHM surpasses existing models such as geometry and context network (GC-Net) and pyramid stereo matching network (PSMNet) in terms of disparity prediction accuracy and computational speed, consuming less than one-third of the memory.
 
-The results of learning GC-Net using disparity and normalized z-distance are shown in the following figures and table.
-It can be seen that the disparity or distance error (Mean Absolute Error) is reduced in the model learned using real normalized z-distance.
-
-![image](https://github.com/flymeover/ReduceQuantizedErrorOfDisparity/assets/167387983/a7873e54-c3c2-4105-825a-29971b0cff7a)
-
-Fig1. Comparison of Disparity Map based on original data and model pre-diction results used for training and evaluation:
-(Top) LiDAR data; (Middle) GC-Net with disparity data; (Bottom) GC-Net with normalized Z-distance data.
- 
-![image](https://github.com/flymeover/ReduceQuantizedErrorOfDisparity/assets/167387983/5b992b18-19de-4ddc-a8de-ea9e06a96d90)
-
-Fig2. Comparison of Depth Map based on original data and model pre-diction results used for training and evaluation:
-(Top) LiDAR data; (Middle) GC-Net with disparity data; (Bottom) GC-Net with normalized Z-distance data.
+![image](https://github.com/user-attachments/assets/42829cbc-ad43-45d8-81a6-cf1901588931)
+Figure Prediction results of models by retraining iterations with tomato dataset.
 
 
-Table. Comparison of predicted values using Z-distance data and Disparity data
-
-![image](https://github.com/flymeover/ReduceQuantizedErrorOfDisparity/assets/167387983/37f41e9b-93a9-4557-a01e-07243858460a)
-
+Table Calculation resource usage by models predicted with tomato dataset (image size: 960 × 544).
+![image](https://github.com/user-attachments/assets/109c25c5-fa5b-42dd-af1c-e91d11a4e224)
