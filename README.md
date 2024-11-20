@@ -25,7 +25,7 @@ https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sha
 
 [Result]
 
-The proposed model, IUHM surpasses existing models such as geometry and context network (GC-Net) and pyramid stereo matching network (PSMNet) in terms of disparity prediction accuracy and computational speed, consuming less than one-third of the memory.
+The proposed model, IUHM surpasses existing models such as geometry and context network (GC-Net) and pyramid stereo matching network (PSMNet) in terms of disparity prediction accuracy and computational speed, consuming less than one-third of the memory in tomato greenhouse dataset.
 
 
 ![image](https://github.com/user-attachments/assets/42829cbc-ad43-45d8-81a6-cf1901588931)
