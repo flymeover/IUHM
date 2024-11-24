@@ -8,6 +8,7 @@ Integrated U-Net model with histogram-equalized mono channel stereo data (IUHM)
 
 ![image](https://github.com/user-attachments/assets/04ba8194-92a8-40b3-923f-f2d928e0c160)
 
+**Figure. IUHM model structure.**
 
 To evaluate the performance of the IUHM model, GC-Net and PSMNet were trained and evaluated together.
 
