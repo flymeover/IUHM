@@ -24,7 +24,11 @@ https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sha
 
 The codes were written based on Python3 and TensorFlow2 in a Jupyter Notebook environment.
 
-※ Refer to the Jupyter Notebook environment file (kcy.yaml file)
+(The code or data path that loads learning/evaluation data must be modified and executed according to the path where the user saved the data.)
+
+※ Refer to the Jupyter Notebook environment file (kcy.yaml file) to install the libraries required to run the code
+
+
    
    
 ## [Scene Flow Data]
