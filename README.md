@@ -1,6 +1,6 @@
-"Resource-Constrained Stereo Matching for Agricultural Applications: An Efficient and Accurate Approach with Optimized Memory Usage in Field and Greenhouse Environments"
+#"Resource-Constrained Stereo Matching for Agricultural Applications: An Efficient and Accurate Approach with Optimized Memory Usage in Field and Greenhouse Environments"
 
-[Proposed Model]
+## [Proposed Model]
 
 Integrated U-Net model with histogram-equalized mono channel stereo data (IUHM)
 
@@ -18,7 +18,7 @@ https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sha
 
    
    
-[Stereo Matching Algorithm Code]
+## [Stereo Matching Algorithm Code]
 
 ![image](https://github.com/user-attachments/assets/2add8710-5c49-431f-b1f8-5fd96270e973)
 
@@ -27,7 +27,7 @@ The codes were written based on Python3 and TensorFlow2 in a Jupyter Notebook en
 ※ Refer to the Jupyter Notebook environment file (kcy.yaml file)
    
    
-[Scene Flow Data]
+## [Scene Flow Data]
 
 Pretraining by refining only data with disparity range of 0-160
 
@@ -40,7 +40,7 @@ https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.h
 
 
 
-[Tomato Greenhouse Data]
+## [Tomato Greenhouse Data]
 
 Dataset for retrain and evaluation :
 
@@ -52,7 +52,7 @@ https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sha
 
 
 
-[Result]
+## [Result]
 
 The proposed model, IUHM surpasses existing models such as geometry and context network (GC-Net) and pyramid stereo matching network (PSMNet)
 in terms of disparity prediction accuracy and computational speed,
@@ -77,7 +77,7 @@ Users can download it from the following path:
 https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sharing
 
 
-※ Caution.
+### ※ Caution.
 
 To download the pre-learned parameter data of the IUHM, GC-Net, and PSMNet models and the tomato greenhouse dataset, access the Google Drive link (https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=drive_link) and write the purpose of downloading to apply. Access will be permitted after confirmation. Due to sharing speed and daily transfer limits, downloads are allowed for up to 3 days after sharing permission is approved.
 (Downloading or using the data in the link for commercial purposes by person, people, institutions, companies, and data collection system other than those who participated in this study is prohibited.)
