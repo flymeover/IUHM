@@ -1,4 +1,3 @@
-[Title]
 "Resource-Constrained Stereo Matching for Agricultural Applications: An Efficient and Accurate Approach with Optimized Memory Usage in Field and Greenhouse Environments"
 
 [Proposed Model]
