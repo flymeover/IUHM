@@ -10,7 +10,7 @@ Integrated U-Net model with histogram-equalized mono channel stereo data (IUHM)
 ![image](https://github.com/user-attachments/assets/04ba8194-92a8-40b3-923f-f2d928e0c160)
 
 
-IUHM, GC-Net, PSMNet Model's save data : saved)model.zip
+IUHM, GC-Net, PSMNet Model's save data : saved_model.zip
 https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sharing
 
 
