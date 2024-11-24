@@ -46,6 +46,23 @@ https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.h
 
 ## [Tomato Greenhouse Data]
 
+This study utilized stereo images and LiDAR data collected from tomato plants cultivated in a greenhouse managed by the Korea Institute of Science and Technology (KIST) in Gangwon-do, South Korea. The data collection was conducted over a two-month period, from July to August 2024.
+
+![image](https://github.com/user-attachments/assets/a31c504a-04d5-4802-bd65-4308dbfd0f7f)
+
+Figure. Data collection location and equipment:
+
+(a) landscape of KIST greenhouse and (b) multifunction camera setup (LED bar, dual Intel Realsense L515s, control box).
+
+
+![image](https://github.com/user-attachments/assets/d67b6212-3a7a-4fb1-af1a-97fe7428627f)
+
+Figure. Range of distance from tomatoes to MFC in KIST’s greenhouse.
+
+![image](https://github.com/user-attachments/assets/a5ca5580-56c7-49c7-9003-122c6ac4402f)
+
+Figure. Example of original data collected by the MFC in KIST’s greenhouse: (a) left camera’s Image, (b) right camera’s Image, and (c) left disparity data converted by LiDAR depth data.
+
 Dataset for retrain and evaluation :
 
 tomato_data.zip-tomato_data.z23 (Compressed file divided into 24 parts)
