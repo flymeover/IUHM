@@ -50,6 +50,10 @@ Figure. Prediction results of models by retraining iterations with tomato datase
 Table. Calculation resource usage by models predicted with tomato dataset (image size: 960 × 544).
 ![image](https://github.com/user-attachments/assets/e990a3ea-594a-4a8b-b8f9-07be78c07c07)
 
+Evaluation Data(Disparity Error and Disparity map) : IUHM_H4WW6_iter177.zip, PSMNet_iter196.zip, GCNet_iter52.zip
+Users can download it from the following path:
+https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sharing
+
 
 ※ Caution.
 
