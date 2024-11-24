@@ -9,6 +9,9 @@ Integrated U-Net model with histogram-equalized mono channel stereo data (IUHM)
 ![image](https://github.com/user-attachments/assets/04ba8194-92a8-40b3-923f-f2d928e0c160)
 
 
+To evaluate the performance of the IUHM model, GC-Net and PSMNet were trained and evaluated together.
+
+
 IUHM, GC-Net, PSMNet Model's save data : saved_model.zip
 
 https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sharing
@@ -19,6 +22,9 @@ https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sha
 ![image](https://github.com/user-attachments/assets/2add8710-5c49-431f-b1f8-5fd96270e973)
 
 The codes were written based on Python3 and TensorFlow2 in a Jupyter Notebook environment.
+
+※ Refer to the Jupyter Notebook environment file (kcy.yaml file)
+
 
 [Scene Flow Data]
 
