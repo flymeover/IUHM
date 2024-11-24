@@ -22,6 +22,8 @@ The codes were written based on Python3 and TensorFlow2 in a Jupyter Notebook en
 
 [Scene Flow Data]
 
+Pretraining by refining only data with disparity range of 0-160
+
 Dataset for pretrain :
 
 Users can download data, modify the test code according to the saved path, and run it.
