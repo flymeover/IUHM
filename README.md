@@ -54,5 +54,5 @@ Table. Calculation resource usage by models predicted with tomato dataset (image
 
 ※ Caution.
 
-To download the pre-learned parameter data of the IUHM, GC-Net, and PSMNet models and the tomato greenhouse dataset, access the Google Drive link (https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=drive_link) and write the purpose of downloading to apply. Access will be permitted after confirmation. Due to sharing speed and daily transfer volume limitations, sharing permissions are limited to a maximum of 3 days.
+To download the pre-learned parameter data of the IUHM, GC-Net, and PSMNet models and the tomato greenhouse dataset, access the Google Drive link (https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=drive_link) and write the purpose of downloading to apply. Access will be permitted after confirmation. Due to sharing speed and daily transfer limits, downloads are allowed for up to 3 days after sharing permission is approved.
 (Downloading or using the data in the link for commercial purposes by person, people, institutions, companies, and data collection system other than those who participated in this study is prohibited.)
