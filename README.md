@@ -4,23 +4,17 @@
 
 Integrated U-Net model with histogram-equalized mono channel stereo data (IUHM)
 
+### **Figure. IUHM model structure and features.**
 ![image](https://github.com/user-attachments/assets/48e6205c-30a3-4157-810f-1fdb47aec45d)
-
 ![image](https://github.com/user-attachments/assets/04ba8194-92a8-40b3-923f-f2d928e0c160)
-
 ![image](https://github.com/user-attachments/assets/2add8710-5c49-431f-b1f8-5fd96270e973)
 
-**Figure. IUHM model structure and features.**
-
 To evaluate the performance of the IUHM model, GC-Net and PSMNet were trained and evaluated together.
-
 
 IUHM, GC-Net, PSMNet Model's save data : saved_model.zip
 
 https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sharing
 
-   
-   
 ## [Stereo Matching Algorithm Code]
 
 The codes were written based on Python3 and TensorFlow2 in a Jupyter Notebook environment.
@@ -28,9 +22,6 @@ The codes were written based on Python3 and TensorFlow2 in a Jupyter Notebook en
 (The code or data path that loads learning/evaluation data must be modified and executed according to the path where the user saved the data.)
 
 ※ Refer to the Jupyter Notebook environment file (kcy.yaml file) to install the libraries required to run the code
-
-
-   
    
 ## [Scene Flow Data]
 
@@ -41,9 +32,6 @@ Dataset for pretrain :
 Users can download data, modify the test code according to the saved path, and run it.
 
 https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html
-
-
-
 
 ## [Tomato Greenhouse Data]
 
