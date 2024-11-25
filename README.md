@@ -11,7 +11,9 @@ Integrated U-Net model with histogram-equalized mono channel stereo data (IUHM)
 
 To evaluate the performance of the IUHM model, GC-Net and PSMNet were trained and evaluated together.
 
-**IUHM, GC-Net, PSMNet Model's save data : saved_trained_model_data.zip**
+**IUHM, GC-Net, PSMNet Model's test code in github : GCNet_predict_tomato.ipynb, PSMNet_predict_tomato.ipynb, IUHM_predict_tomato.ipynb**
+
+**IUHM, GC-Net, PSMNet Model's save data available for download from the link below : saved_trained_model_data.zip**
 
 https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sharing
 
