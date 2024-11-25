@@ -27,7 +27,7 @@ The codes were written based on Python3 and TensorFlow2 in a Jupyter Notebook en
 
 Pretraining by refining only data with disparity range of 0-160
 
-Dataset for pretrain :
+**Dataset for pretraining :**
 
 Users can download data, modify the test code according to the saved path, and run it.
 
@@ -36,6 +36,9 @@ https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.h
 ## [Tomato Greenhouse Data]
 
 This study utilized stereo images and LiDAR data collected from tomato plants cultivated in a greenhouse managed by the Korea Institute of Science and Technology (KIST) in Gangwon-do, South Korea. The data collection was conducted over a two-month period, from July to August 2024.
+
+Owing to the interference of strong sunlight during daylight hours, LiDAR measurements were exclusively taken at night, facilitated by light-emitting diode (LED) illumination.
+
 
 ### **Figure. Data collection location and equipment:(a) landscape of KIST greenhouse and (b) multifunction camera setup (LED bar, dual Intel Realsense L515s, control box).**
 ![image](https://github.com/user-attachments/assets/a31c504a-04d5-4802-bd65-4308dbfd0f7f)
@@ -47,7 +50,7 @@ This study utilized stereo images and LiDAR data collected from tomato plants cu
 ![image](https://github.com/user-attachments/assets/a5ca5580-56c7-49c7-9003-122c6ac4402f)
 
 
-Dataset for retrain and evaluation :
+**Dataset for retraining and evaluation :**
 
 tomato_data.zip-tomato_data.z23 (Compressed file divided into 24 parts)
 
