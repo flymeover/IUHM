@@ -87,4 +87,5 @@ https://drive.google.com/drive/folders/1C9imrSk1bZTLQYUEmxgvCfZMEFtMwPLn?usp=sha
 > 
 > Download timeframe: Once approved, you will have 3 days to download the data due to sharing speed and daily transfer limits.
 > 
-> Important Note: Downloading or using this data for commercial purposes by any individual, group, institution, company, or data collection system not involved in this study is strictly prohibited.
+> **Important Note:**
+> Downloading or using this data for commercial purposes by any individual, group, institution, company, or data collection system not involved in this study is strictly prohibited.
