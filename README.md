@@ -71,6 +71,11 @@ The proposed model, IUHM surpasses existing models such as geometry and context 
 in terms of disparity prediction accuracy and computational speed,
 consuming less than one-third of the memory in tomato greenhouse dataset.
 
+For 2D/3D-Mobilestereonet, memory usage during training and evaluation on the greenhouse tomato dataset exceeds 24 GB,
+more than seven times that of the IUHM model (3.1 GB). Furthermore, the 4-segmentation operation demands over 17 GB of memory,
+and disparity calculation times increase by 33 and 10 times, respectively. Its disparity MAE is also higher than other models.
+Consequently, its application to low-power, small form factor computers is deemed impractical.
+
 ### **Figure. Prediction results of models by retraining iterations with tomato dataset.**
 ![image](https://github.com/user-attachments/assets/0a42b7f6-d1b3-48d7-a611-92f01d4c5346)
 
